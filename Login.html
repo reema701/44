@@ -1,0 +1,116 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saudi Airlines Login</title>
+
+  <style>
+  body{
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  font-family:Arial, sans-serif;
+  color:#fff;
+
+  background-image: 
+    linear-gradient(rgba(0,9,128,0.85), rgba(0,9,128,0.85)),
+    url("1.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+    .card{
+      width:480px;
+      padding:22px 24px;
+      border:1px solid rgba(255,255,255,0.2);
+      border-radius:14px;
+      background:rgba(255,255,255,0.06);
+      text-align:center;
+    }
+
+    .top-row{
+      display:flex;
+      justify-content:flex-start;
+      margin-bottom:10px;
+    }
+
+    a{ color:#fff; text-decoration:none; font-size:14px; }
+    a:hover{ text-decoration:underline; }
+
+    img{
+      width:260px;
+      height:auto;
+      display:block;
+      margin:6px auto 10px;
+    }
+
+    label{
+      display:block;
+      margin-top:10px;
+      font-size:14px;
+      text-align:left;
+    }
+
+    input{
+      width:100%;
+      padding:10px 12px;
+      margin-top:6px;
+      border-radius:10px;
+      border:1px solid rgba(255,255,255,0.25);
+      outline:none;
+    }
+
+    input[type="submit"]{
+      width:100%;
+      padding:10px 12px;
+      margin-top:14px;
+      border-radius:10px;
+      border:none;
+      background:#2314ff;
+      color:#fff;
+      cursor:pointer;
+      font-size:15px;
+    }
+
+    input[type="submit"]:hover{
+      background:#1a10c7;
+    }
+
+    footer{
+      margin-top:14px;
+      font-size:13px;
+      opacity:0.9;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="top-row">
+      <a href="Home.html">Home</a>
+    </div>
+
+    <img src="11.png" alt="Saudi Airline logo" />
+
+    <form action="Home.html" method="get">
+      <label for="username">Enter username:</label>
+      <input id="username" type="text" name="username" placeholder="User name" required>
+
+      <label for="password">Enter password:</label>
+      <input id="password" type="password" name="password" placeholder="Password" required>
+
+      <input type="submit" value="Login">
+    </form>
+  </div>
+
+  <footer>© 2025 Saudi Airlines</footer>
+
+</body>
+</html>
